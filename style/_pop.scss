@@ -1,0 +1,41 @@
+.leaflet-popup {
+  .leaflet-popup-content-wrapper {
+    .leaflet-popup-content {
+      h3 {
+        text-align: center;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+      }
+      .popmask {
+        justify-content: space-around;
+        .mask-adult {
+          width: 120px;
+          height: 25px;
+          background-color: #73c0d8;
+          border-radius: 16px;
+          display: block;
+          color: #fff;
+          text-align: center;
+          line-height: 25px;
+        }
+        .mask-child {
+          width: 120px;
+          height: 25px;
+          background-color: #ffa573;
+          border-radius: 16px;
+          display: block;
+          color: #fff;
+          text-align: center;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+}
