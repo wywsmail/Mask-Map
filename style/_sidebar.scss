@@ -73,18 +73,45 @@
     list-style-type: none;
     h3 {
       text-align: center;
-      font-size: 18px;
-      line-height: 24px;
+      font-size: 24px;
+      line-height: 30px;
       font-weight: bold;
       margin-bottom: 15px;
     }
     p {
-      font-size: 14px;
-      line-height: 20px;
+      font-size: 20px;
+      line-height: 30px;
       margin-bottom: 15px;
     }
     .mask-arrow {
       justify-content: space-between;
+    }
+    .maskNumber {
+      width: 80%;
+      justify-content: space-around;
+      text-decoration: none;
+      .mask-adult {
+        width: 140px;
+        height: 25px;
+        background-color: #73c0d8;
+        border-radius: 16px;
+        display: block;
+        color: #fff;
+        text-align: center;
+        line-height: 25px;
+        text-decoration: none;
+      }
+      .mask-child {
+        width: 140px;
+        height: 25px;
+        background-color: #ffa573;
+        border-radius: 16px;
+        display: block;
+        color: #fff;
+        text-align: center;
+        line-height: 25px;
+        text-decoration: none;
+      }
     }
   }
 }

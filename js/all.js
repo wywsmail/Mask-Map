@@ -206,9 +206,9 @@ function showPharmacy(e) {
           <p>${item.properties.address}</p>
           <p>${item.properties.phone}</p>
           <div class="mask-arrow d-flex">
-            <div class="maskNumber">
-              <span>成人口罩：${item.properties.mask_adult}</span>
-              <span>兒童口罩：${item.properties.mask_child}</span>
+            <div class="maskNumber d-flex">
+              <a href="#" class="mask-adult">成人口罩：${item.properties.mask_adult}</a>
+              <a href="#" class="mask-child">兒童口罩：${item.properties.mask_child}</a>
             </div>
             <a href="#">
               <i class="fas fa-location-arrow arrow" data-lat="${item.geometry.coordinates[1]}" data-lng="${item.geometry.coordinates[0]}">

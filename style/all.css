@@ -248,15 +248,15 @@ html, body {
 
 .sideBarBottom li h3 {
   text-align: center;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 24px;
+  line-height: 30px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
 .sideBarBottom li p {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 30px;
   margin-bottom: 15px;
 }
 
@@ -264,6 +264,37 @@ html, body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.sideBarBottom li .maskNumber {
+  width: 80%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-decoration: none;
+}
+
+.sideBarBottom li .maskNumber .mask-adult {
+  width: 140px;
+  height: 25px;
+  background-color: #73c0d8;
+  border-radius: 16px;
+  display: block;
+  color: #fff;
+  text-align: center;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+.sideBarBottom li .maskNumber .mask-child {
+  width: 140px;
+  height: 25px;
+  background-color: #ffa573;
+  border-radius: 16px;
+  display: block;
+  color: #fff;
+  text-align: center;
+  line-height: 25px;
+  text-decoration: none;
 }
 
 .sideBarClick .right {
