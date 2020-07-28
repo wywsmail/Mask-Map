@@ -171,14 +171,15 @@ html, body {
 .sideBarTop {
   background-color: #73c0d8;
   color: #fff;
-  padding: 8px 5%;
+  height: 12vh;
 }
 
 .sideBarTop .title {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 8px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .sideBarTop .title h1 {
@@ -186,15 +187,16 @@ html, body {
   line-height: 38px;
 }
 
-.sideBarTop .title .date {
-  font-size: 12px;
-  line-height: 16px;
+.sideBarTop .title .getDate {
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .sideBarTop .location {
   width: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-top: 10px;
 }
 
 .sideBarTop .location select {
@@ -207,7 +209,7 @@ html, body {
 .sideBarBottom {
   background-color: #fff;
   overflow-y: auto;
-  height: 87.5%;
+  height: 88vh;
 }
 
 .sideBarBottom .sideBarClick {
